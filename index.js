@@ -37,6 +37,7 @@ fetch(
       
         nameInput.value = ""; 
       });
+      
       const name = document.createElement("h2");
       name.innerText = dog.name;
 
@@ -45,3 +46,7 @@ fetch(
 
       const bredFor = document.createElement("p");
       bredFor.innerText = `Bred for: ${dog.bred_for}`;
+
+      const button = document.createElement("button");
+      button.innerText = "See how cute I am!";
+      button.addEventListener("click", () => {
