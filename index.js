@@ -37,7 +37,7 @@ fetch(
       
         nameInput.value = ""; 
       });
-      
+
       const name = document.createElement("h2");
       name.innerText = dog.name;
 
@@ -50,3 +50,9 @@ fetch(
       const button = document.createElement("button");
       button.innerText = "See how cute I am!";
       button.addEventListener("click", () => {
+        if (index === 0) {
+            const gif = document.createElement("img");
+            gif.src = "https://media3.giphy.com/media/l0Ex3Ewy3ryA5il5S/giphy.gif";
+            gif.alt = `${dog.name} gif`;
+            div.appendChild(gif);
+        }}
