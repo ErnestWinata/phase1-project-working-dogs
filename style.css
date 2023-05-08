@@ -21,3 +21,18 @@ body {
     text-align: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.5);
   }
+
+  .dog-container img {
+    max-width: 60%;
+    max-height: 40%;
+    margin-bottom: 20px;
+  }
+  
+  .dog-container h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  
+  .dog-container p {
+    font-size: 22px;
+  }
