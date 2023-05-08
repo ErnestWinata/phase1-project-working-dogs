@@ -87,3 +87,24 @@ fetch(
             div.appendChild(gif);
           }
         });
+        const breedRadios = document.getElementsByName('breed');
+        const nameSuggestion = document.getElementById('name-suggestion');
+        
+        for (const radio of breedRadios) {
+          radio.addEventListener('click', () => {
+            const breed = radio.value;
+          
+          });
+          
+        }
+        
+        div.appendChild(img);
+        div.appendChild(name);
+        div.appendChild(temperament);
+        div.appendChild(bredFor);
+        div.appendChild(button);
+  
+        
+        container.appendChild(div);
+      });
+    });
