@@ -36,3 +36,11 @@ body {
   .dog-container p {
     font-size: 22px;
   }
+  h1 {
+    font-size: 68px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #720414, #d4933d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
