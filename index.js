@@ -80,3 +80,10 @@ fetch(
             gif.alt = `${dog.name} gif`;
             div.appendChild(gif);
           }
+          else if (index === 5) {
+            const gif = document.createElement("img");
+            gif.src = "https://i.pinimg.com/originals/40/1e/a0/401ea0d46fb21185a7735dfa0d39fdaa.gif";
+            gif.alt = `${dog.name} gif`;
+            div.appendChild(gif);
+          }
+        });
