@@ -74,3 +74,9 @@ fetch(
             gif.alt = `${dog.name} gif`;
             div.appendChild(gif);
           }
+          else if (index === 4) {
+            const gif = document.createElement("img");
+            gif.src = "https://media.tenor.com/gKHVigpG5pMAAAAC/barking-dog.gif";
+            gif.alt = `${dog.name} gif`;
+            div.appendChild(gif);
+          }
