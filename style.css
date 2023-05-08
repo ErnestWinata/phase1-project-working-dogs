@@ -44,3 +44,6 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .description p {
+    font-size: 21px;
+  }
