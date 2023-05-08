@@ -55,4 +55,10 @@ fetch(
             gif.src = "https://media3.giphy.com/media/l0Ex3Ewy3ryA5il5S/giphy.gif";
             gif.alt = `${dog.name} gif`;
             div.appendChild(gif);
-        }}
+        }
+        else if (index === 1) {
+          const gif = document.createElement("img");
+          gif.src = "https://media.tenor.com/1PKlcYyeNdkAAAAM/dog-akita.gif";
+          gif.alt = `${dog.name} gif`;
+          div.appendChild(gif);
+        }
