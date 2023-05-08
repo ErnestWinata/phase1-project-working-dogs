@@ -62,3 +62,9 @@ fetch(
           gif.alt = `${dog.name} gif`;
           div.appendChild(gif);
         }
+        else if (index === 2) {
+            const gif = document.createElement("img");
+            gif.src = "https://media2.giphy.com/media/l378p0VvTts3st2RG/200.gif?cid=6c09b952tnejek8opyj8zvp8zw7686k38j98aw43au2ks8ge&ep=v1_gifs_search&rid=200.gif&ct=g";
+            gif.alt = `${dog.name} gif`;
+            div.appendChild(gif);
+          }
