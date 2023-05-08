@@ -8,4 +8,4 @@ fetch(
     const workingDogs = data
       .filter((dog) => dog.breed_group === "Working") 
       .slice(0, 3) 
-      
+      .concat(data.filter((dog) => dog.breed_group === "Working").slice(5, 8));
