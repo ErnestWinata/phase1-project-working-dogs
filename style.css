@@ -86,3 +86,10 @@ body {
     outline: none;
     border-color: #666;
   }
+
+  #name-response {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
