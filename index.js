@@ -37,3 +37,5 @@ fetch(
       
         nameInput.value = ""; 
       });
+      const name = document.createElement("h2");
+      name.innerText = dog.name;
