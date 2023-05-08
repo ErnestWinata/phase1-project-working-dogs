@@ -39,3 +39,6 @@ fetch(
       });
       const name = document.createElement("h2");
       name.innerText = dog.name;
+
+      const temperament = document.createElement("p");
+      temperament.innerText = `Temperament: ${dog.temperament}`;
