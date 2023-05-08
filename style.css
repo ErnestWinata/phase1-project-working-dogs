@@ -52,3 +52,13 @@ body {
     font-weight: bold;
     font-family: Arial, sans-serif; 
   }
+  .name-form {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
