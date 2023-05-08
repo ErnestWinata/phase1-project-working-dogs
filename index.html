@@ -44,3 +44,8 @@
     function submitForm() {
       
       const selectedBreed = document.querySelector('input[name="breed"]:checked').value;
+
+      const resultParagraph = document.getElementById('result');
+    resultParagraph.textContent = "That's great! What would be a good name for your " + selectedBreed + "?";
+  }
+</script>
