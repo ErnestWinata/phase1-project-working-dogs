@@ -93,3 +93,21 @@ body {
     margin-top: 20px;
     font-family: Arial, sans-serif;
   }
+  h2 {
+    text-align: center;
+  }
+  
+  .question-container {
+    background-image: linear-gradient(to bottom right, #4FC3F7, #B3E5FC);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+  }
+  
+  
+  .question-container h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
