@@ -62,3 +62,27 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .name-input {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .name-input p {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  #name-input {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  #name-input:focus {
+    outline: none;
+    border-color: #666;
+  }
