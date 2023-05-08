@@ -20,3 +20,10 @@ fetch(
       img.src =
         "https://media.istockphoto.com/id/1155747156/vector/cute-golden-retriever-puppy-paws-up-over-wall-dog-face-vector-illustration.jpg?s=612x612&w=0&k=20&c=4ROMUd2EJsRxPKh8EdNjEGioQtt1tPYza_bzmUhwaSM=";
       img.alt = `${dog.name} image`;
+
+      const nameForm = document.getElementById("name-form");
+      const nameInput = document.getElementById("name-input");
+      const nameResponse = document.getElementById("name-response");
+      
+      nameForm.addEventListener("submit", (event) => {
+        event.preventDefault(); 
