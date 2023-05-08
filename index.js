@@ -27,3 +27,13 @@ fetch(
       
       nameForm.addEventListener("submit", (event) => {
         event.preventDefault(); 
+
+        const name = nameInput.value.trim();
+        if (name) {
+          nameResponse.innerText = "What a cute name for your doggy.  I love it! ❤️🐶❤️";
+        } else {
+          nameResponse.innerText = "What a cute name for your doggy.  I love it! ❤️🐶❤️ ";
+        }
+      
+        nameInput.value = ""; 
+      });
