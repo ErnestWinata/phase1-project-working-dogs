@@ -1,3 +1,23 @@
 body {
     background: linear-gradient(to bottom right, #8e90e2, #ac8fe4, #ac5ce6, #cb97df);
   }
+  #container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+    margin-left: 60px;
+  }
+  
+  .dog-container {
+    width: calc(25% - 20px);
+    height: 700px;
+    margin: 0 30px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #7ac67a, #aed3aa);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  }
