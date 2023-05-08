@@ -1,2 +1,6 @@
-# phase1-project-working-dogs
-Phase 1 Project for Flatiron - Learning About Working Dogs
+
+# Phase 1 Project - Learning About Working Dogs
+
+This Phase 1 project was completed as part of my full-stack software programming curriculum at Flatiron School.  I used thedogapi.com because it contains an extensive amount of information from which I could choose.  I have selected 6 dog breeds listed in the API that best represent the Working group dogs.  On top of the page, there is a description of what working group dogs are and the roles they serve in day-to-day activities.  The next section of the page is a list of 6 dog breeds, each with a brief description of their temperament, and what their most well-known purposes.  Each card container also has a button that users can click to see what each dog looks like in gif forms.
+
+After reviewing the breeds listed on the page, users can select a favourite of theirs by choosing one of the radio buttons and hit the 'submit' button.  There will be a message that acknowledges their selection, as well as asking what would be a good name for their selected breed.  The question will change depending on the breed that the user has selected.  Users can then type in a name they find would best suit the dog they have liked.  After hitting the submit button, there will be another message acknowledging the users' answers.
