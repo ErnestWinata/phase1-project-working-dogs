@@ -125,3 +125,7 @@ body {
     height: 270px;
     margin: auto;
   }
+
+  label {
+    font-size: 22px;
+  }
