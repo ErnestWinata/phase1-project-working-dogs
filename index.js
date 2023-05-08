@@ -42,3 +42,6 @@ fetch(
 
       const temperament = document.createElement("p");
       temperament.innerText = `Temperament: ${dog.temperament}`;
+
+      const bredFor = document.createElement("p");
+      bredFor.innerText = `Bred for: ${dog.bred_for}`;
